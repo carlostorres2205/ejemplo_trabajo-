@@ -1,5 +1,6 @@
-from dao_usuario import UsuarioDAO
-from dao_saldo import SaldoDAO
+from dao.dao_usuario import UsuarioDAO
+from dao.dao_saldo import SaldoDAO
+
 
 usuarios = UsuarioDAO()
 saldos = SaldoDAO()
